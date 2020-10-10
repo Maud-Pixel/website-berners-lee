@@ -21,7 +21,6 @@
     ". third .";
   }
 
-
   @font-face {
     font-family: "Open_Sans";
     src: url("Images/fonts/OpenSans-Regular.ttf");
@@ -169,3 +168,13 @@
   {
     background-color: #d9d9d9;
   }
+
+
+@media screen and (max-width: 800px)
+{
+  .grid-container
+  {
+    grid-template-columns:  5% 80% 15%;
+  }
+  
+}
